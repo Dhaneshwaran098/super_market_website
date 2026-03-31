@@ -1,0 +1,338 @@
+{
+  "users": [
+    {
+      "id": "user_031735311c76caaf",
+      "name": "dhanesh",
+      "email": "dhanesh@gmail.com",
+      "passwordHash": "b6f8b890b7ef2dc555511bf81ff1dc99:225d7d956edaffaacd740c64bab291e57b2e83131df0a3a56cb20767a5b6a6bf5766c343ff1940b2d08f3b36576ad2e0a6f2df38277ce4ee66ed9f738e8b5641",
+      "profile": {
+        "name": "dhanesh",
+        "email": "dhanesh@gmail.com",
+        "phone": "9363879477",
+        "address": "kanchipuram",
+        "city": "kanchipuram",
+        "pincode": "631902"
+      },
+      "createdAt": "2026-03-31T06:25:07.036Z"
+    }
+  ],
+  "admins": [
+    {
+      "id": "admin_db05d66979ae2ead",
+      "name": "FreshMart Owner",
+      "email": "owner@freshmart.in",
+      "role": "owner",
+      "passwordHash": "2e09da727a6c7e03351e5150153826d3:336a3206523001c76681d836cdada3ac01ca2aa1b0df47cb6bf39d606c997352b2b402410bf539022d92ce2ae35a43570d35a257801c1c80e78cd2f04934266b",
+      "createdAt": "2026-03-30T16:57:39.331Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "2cb8625b28c5e370cfc8f6bb85fa1e46b1a81a3507c69ef321116d646133d033",
+      "userId": "user_031735311c76caaf",
+      "createdAt": "2026-03-31T06:25:07.037Z"
+    }
+  ],
+  "adminSessions": [
+    {
+      "token": "ac0af12c8cd5b7769853724efc16880fd21005f32785526eba643f17b53837f4",
+      "adminId": "admin_db05d66979ae2ead",
+      "createdAt": "2026-03-31T06:40:26.646Z"
+    }
+  ],
+  "orders": [
+    {
+      "id": "#ORD-8000",
+      "userId": "user_031735311c76caaf",
+      "customerName": "dhanesh",
+      "customerEmail": "dhanesh@gmail.com",
+      "items": [
+        {
+          "id": 2,
+          "name": "Fresh Broccoli Crown",
+          "image": "🥦",
+          "price": 65,
+          "qty": 1,
+          "unit": "500g"
+        },
+        {
+          "id": 3,
+          "name": "Basmati Rice Premium",
+          "image": "🌾",
+          "price": 280,
+          "qty": 1,
+          "unit": "5kg"
+        },
+        {
+          "id": 1,
+          "name": "Organic Fuji Apples",
+          "image": "🍎",
+          "price": 120,
+          "qty": 1,
+          "unit": "1kg"
+        }
+      ],
+      "subtotal": 465,
+      "shippingFee": 49,
+      "total": 514,
+      "payment": "cod",
+      "paymentStatus": "pending",
+      "paymentOrderId": "",
+      "paymentId": "",
+      "delivery": "standard",
+      "deliveryProfile": {
+        "name": "dhanesh",
+        "email": "dhanesh@gmail.com",
+        "phone": "9363879477",
+        "address": "kanchipuram",
+        "city": "kanchipuram",
+        "pincode": "631902"
+      },
+      "status": "Confirmed",
+      "createdAt": "2026-03-31T06:40:09.273Z"
+    }
+  ],
+  "messages": [],
+  "products": [
+    {
+      "id": 1,
+      "name": "Organic Fuji Apples",
+      "category": "Fruits",
+      "price": 120,
+      "originalPrice": 150,
+      "image": "🍎",
+      "rating": 4.8,
+      "reviews": 124,
+      "stock": 45,
+      "unit": "1kg",
+      "discount": 20,
+      "isNew": false,
+      "featured": true
+    },
+    {
+      "id": 2,
+      "name": "Fresh Broccoli Crown",
+      "category": "Vegetables",
+      "price": 65,
+      "originalPrice": 65,
+      "image": "🥦",
+      "rating": 4.6,
+      "reviews": 87,
+      "stock": 30,
+      "unit": "500g",
+      "discount": 0,
+      "isNew": true,
+      "featured": true
+    },
+    {
+      "id": 3,
+      "name": "Basmati Rice Premium",
+      "category": "Rice",
+      "price": 280,
+      "originalPrice": 320,
+      "image": "🌾",
+      "rating": 4.9,
+      "reviews": 203,
+      "stock": 100,
+      "unit": "5kg",
+      "discount": 13,
+      "isNew": false,
+      "featured": true
+    },
+    {
+      "id": 4,
+      "name": "Full Cream Milk",
+      "category": "Dairy",
+      "price": 72,
+      "originalPrice": 72,
+      "image": "🥛",
+      "rating": 4.7,
+      "reviews": 156,
+      "stock": 60,
+      "unit": "1L",
+      "discount": 0,
+      "isNew": false,
+      "featured": true
+    },
+    {
+      "id": 5,
+      "name": "Alphonso Mangoes",
+      "category": "Fruits",
+      "price": 350,
+      "originalPrice": 420,
+      "image": "🥭",
+      "rating": 4.9,
+      "reviews": 312,
+      "stock": 25,
+      "unit": "1kg",
+      "discount": 17,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 6,
+      "name": "Cherry Tomatoes",
+      "category": "Vegetables",
+      "price": 90,
+      "originalPrice": 90,
+      "image": "🍅",
+      "rating": 4.5,
+      "reviews": 67,
+      "stock": 40,
+      "unit": "500g",
+      "discount": 0,
+      "isNew": true,
+      "featured": false
+    },
+    {
+      "id": 7,
+      "name": "Greek Yogurt",
+      "category": "Dairy",
+      "price": 145,
+      "originalPrice": 160,
+      "image": "🫙",
+      "rating": 4.7,
+      "reviews": 98,
+      "stock": 50,
+      "unit": "400g",
+      "discount": 9,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 8,
+      "name": "Mixed Nuts & Dried Fruits",
+      "category": "Snacks",
+      "price": 420,
+      "originalPrice": 500,
+      "image": "🥜",
+      "rating": 4.8,
+      "reviews": 178,
+      "stock": 35,
+      "unit": "500g",
+      "discount": 16,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 9,
+      "name": "Cold Pressed Orange Juice",
+      "category": "Beverages",
+      "price": 180,
+      "originalPrice": 180,
+      "image": "🍊",
+      "rating": 4.6,
+      "reviews": 89,
+      "stock": 28,
+      "unit": "1L",
+      "discount": 0,
+      "isNew": true,
+      "featured": false
+    },
+    {
+      "id": 10,
+      "name": "Multigrain Bread",
+      "category": "Snacks",
+      "price": 55,
+      "originalPrice": 55,
+      "image": "🍞",
+      "rating": 4.4,
+      "reviews": 145,
+      "stock": 20,
+      "unit": "400g",
+      "discount": 0,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 11,
+      "name": "Avocados",
+      "category": "Fruits",
+      "price": 95,
+      "originalPrice": 110,
+      "image": "🥑",
+      "rating": 4.7,
+      "reviews": 201,
+      "stock": 15,
+      "unit": "2 pcs",
+      "discount": 14,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 12,
+      "name": "Sparkling Water",
+      "category": "Beverages",
+      "price": 45,
+      "originalPrice": 45,
+      "image": "💧",
+      "rating": 4.3,
+      "reviews": 56,
+      "stock": 80,
+      "unit": "1L",
+      "discount": 0,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 13,
+      "name": "Baby Spinach",
+      "category": "Vegetables",
+      "price": 75,
+      "originalPrice": 75,
+      "image": "🥬",
+      "rating": 4.6,
+      "reviews": 72,
+      "stock": 22,
+      "unit": "250g",
+      "discount": 0,
+      "isNew": true,
+      "featured": false
+    },
+    {
+      "id": 14,
+      "name": "Cheddar Cheese",
+      "category": "Dairy",
+      "price": 240,
+      "originalPrice": 280,
+      "image": "🧀",
+      "rating": 4.8,
+      "reviews": 134,
+      "stock": 18,
+      "unit": "200g",
+      "discount": 14,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 15,
+      "name": "Green Tea Premium",
+      "category": "Beverages",
+      "price": 320,
+      "originalPrice": 380,
+      "image": "🍵",
+      "rating": 4.9,
+      "reviews": 267,
+      "stock": 55,
+      "unit": "50 bags",
+      "discount": 16,
+      "isNew": false,
+      "featured": false
+    },
+    {
+      "id": 16,
+      "name": "Pringles Original",
+      "category": "Snacks",
+      "price": 110,
+      "originalPrice": 110,
+      "image": "🥔",
+      "rating": 4.5,
+      "reviews": 189,
+      "stock": 60,
+      "unit": "110g",
+      "discount": 0,
+      "isNew": false,
+      "featured": false
+    }
+  ]
+}
